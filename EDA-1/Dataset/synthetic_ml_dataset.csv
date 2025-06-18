@@ -1,0 +1,501 @@
+ID,Name,Age,Gender,City,Salary,Joining_Date,Department,Remote_Work,Performance_Score
+1,Alice,55.0,,Phoenix,116123.0,2015-11-13,Finance,False,3.0
+2,Bob,45.0,,nan,108411.0,2020-06-09,HR,True,
+3,David,31.0,,New York,N/A,2016-09-26,Support,False,
+4,Bob,59.0,,Phoenix,115469.0,2020-04-09,Finance,False,5.0
+5,David,24.0,Other,New York,41555.0,2020-08-18,Engineering,False,1.0
+6,Eve,37.0,Female,Houston,53150.0,2022-09-22,HR,,4.0
+7,Frank,55.0,Male,Los Angeles,83002.0,2021-03-20,HR,,2.0
+8,Charlie,35.0,,nan,34853.0,2018-12-10,HR,False,2.0
+9,,39.0,,Los Angeles,91396.0,2016-07-06,Engineering,,2.0
+10,Eve,27.0,,New York,54058.0,2016-12-16,Engineering,True,4.0
+11,Charlie,27.0,Other,nan,58769.0,2018-07-11,Marketing,True,
+12,Charlie,40.0,,Los Angeles,126999.0,2019-09-10,,False,1.0
+13,,52.0,,Phoenix,83276.0,2020-02-27,Finance,True,4.0
+14,Charlie,56.0,,Chicago,108411.0,2018-01-12,Marketing,False,2.0
+15,David,40.0,Female,New York,124613.0,2018-09-03,Finance,False,5.0
+16,Bob,19.0,Other,Los Angeles,135921.0,2015-04-21,,True,3.0
+17,Charlie,38.0,,New York,30060.0,2015-09-08,Engineering,,4.0
+18,Eve,18.0,Male,New York,45048.0,2021-08-27,,True,4.0
+19,Eve,40.0,Male,nan,56657.0,2020-08-16,Engineering,True,1.0
+20,Eve,60.0,Male,nan,75186.0,2016-04-03,,False,1.0
+21,,46.0,Other,Chicago,112565.0,2018-01-12,Marketing,False,4.0
+22,Bob,54.0,Other,Phoenix,31524.0,2015-07-27,Support,False,2.0
+23,,18.0,Male,New York,64008.0,2017-06-18,Marketing,False,3.0
+24,Alice,37.0,,Los Angeles,115469.0,2015-01-22,Finance,,1.0
+25,David,49.0,Other,Houston,135921.0,2016-02-14,Marketing,,2.0
+26,Bob,28.0,Male,New York,97298.0,2017-06-13,HR,,5.0
+27,Frank,38.0,Male,New York,45850.0,2016-05-29,Finance,False,1.0
+28,Frank,60.0,,Chicago,N/A,2017-03-19,,False,2.0
+29,Frank,41.0,Female,Phoenix,130424.0,2017-05-23,Finance,False,2.0
+30,Eve,43.0,Other,Houston,104666.0,2015-01-14,Support,,3.0
+31,David,58.0,,nan,108411.0,2017-08-28,Engineering,False,3.0
+32,Charlie,44.0,Male,nan,70809.0,2020-11-04,,True,5.0
+33,Alice,32.0,Male,Los Angeles,53150.0,2019-04-10,Finance,True,2.0
+34,Charlie,31.0,,Houston,77924.0,2018-08-17,,False,
+35,Grace,63.0,Other,nan,77924.0,2018-06-20,,True,2.0
+36,Bob,60.0,Female,Los Angeles,83276.0,2020-12-09,,True,3.0
+37,Grace,19.0,Female,Phoenix,131332.0,2017-01-19,Engineering,,
+38,Charlie,53.0,Male,Los Angeles,52180.0,2016-11-15,Marketing,False,1.0
+39,Grace,23.0,Other,nan,46725.0,2020-04-11,,False,1.0
+40,Grace,37.0,Female,Chicago,61987.0,2021-06-14,HR,,4.0
+41,Bob,25.0,Other,Chicago,91396.0,2016-11-25,Support,True,3.0
+42,David,55.0,Other,Chicago,34263.0,2021-05-24,Engineering,True,4.0
+43,David,34.0,Male,nan,77924.0,2015-11-03,Finance,False,
+44,Bob,20.0,Female,Chicago,67904.0,2020-06-12,Engineering,True,3.0
+45,Charlie,41.0,,Houston,84912.0,2016-10-23,Finance,,5.0
+46,,30.0,Male,Phoenix,61653.0,2016-07-02,Engineering,,2.0
+47,Frank,25.0,Female,Los Angeles,78756.0,2015-11-08,Finance,False,5.0
+48,Grace,42.0,Female,Los Angeles,62921.0,2022-12-30,,,
+49,Alice,18.0,Female,nan,61653.0,2017-12-18,Marketing,,3.0
+50,Eve,36.0,Female,Chicago,69952.0,2019-10-04,Finance,False,
+51,Bob,44.0,Female,Chicago,87492.0,2017-01-24,Finance,,2.0
+52,David,63.0,Other,New York,45850.0,2015-02-04,HR,,1.0
+53,Alice,23.0,Male,Phoenix,53150.0,2016-03-20,Finance,,1.0
+54,Grace,60.0,Other,Houston,64008.0,2020-11-10,HR,True,
+55,Alice,24.0,,Los Angeles,43350.0,2020-06-05,Support,False,4.0
+56,Frank,63.0,Female,New York,130424.0,2018-05-15,,False,3.0
+57,Charlie,51.0,Male,New York,75186.0,2015-12-19,HR,False,3.0
+58,Grace,30.0,Female,nan,54354.0,2017-06-21,Marketing,True,1.0
+59,David,33.0,Male,Los Angeles,68709.0,2018-09-17,,True,5.0
+60,Charlie,52.0,Other,nan,136667.0,2022-12-19,HR,False,2.0
+61,Grace,56.0,Male,Houston,81226.0,2019-10-15,,True,5.0
+62,David,20.0,,New York,53150.0,2015-06-08,,False,5.0
+63,Grace,18.0,,New York,91396.0,2020-05-31,,True,
+64,Charlie,22.0,Male,Phoenix,78756.0,2017-08-14,Support,,1.0
+65,Alice,58.0,Male,Houston,65737.0,2020-09-02,Marketing,,1.0
+66,Eve,20.0,Male,New York,126523.0,2016-02-08,Engineering,False,1.0
+67,Eve,45.0,Male,Houston,136667.0,2022-10-23,Engineering,True,
+68,,34.0,,Los Angeles,98247.0,2016-05-30,HR,True,4.0
+69,Grace,42.0,Female,Chicago,117410.0,2022-08-11,,,5.0
+70,Frank,60.0,Male,New York,116123.0,2018-10-19,HR,,
+71,Charlie,50.0,Male,Phoenix,91268.0,2022-01-23,Support,True,3.0
+72,Bob,26.0,,Los Angeles,116145.0,2017-08-13,Support,True,2.0
+73,Frank,52.0,,Houston,51172.0,2021-01-08,Finance,True,4.0
+74,Alice,30.0,Other,nan,146074.0,2019-09-09,Support,True,3.0
+75,Grace,47.0,Male,Los Angeles,113559.0,2016-08-30,Finance,True,5.0
+76,Frank,64.0,Other,New York,126999.0,2021-10-03,Marketing,True,1.0
+77,Grace,31.0,,Houston,64008.0,2018-06-27,HR,False,5.0
+78,David,24.0,,Chicago,68709.0,2022-12-23,Marketing,True,
+79,Charlie,30.0,Female,Los Angeles,70809.0,2019-03-16,Support,,2.0
+80,Eve,39.0,Male,New York,122201.0,2022-03-10,Marketing,False,
+81,Bob,56.0,Other,Phoenix,43350.0,2021-07-10,Marketing,True,4.0
+82,,37.0,,nan,84912.0,2018-12-12,Marketing,,4.0
+83,Alice,32.0,,Houston,76828.0,2019-12-03,Support,False,2.0
+84,Bob,61.0,Other,Los Angeles,31622.0,2015-10-22,,,3.0
+85,Bob,34.0,Female,Los Angeles,130424.0,2017-01-24,Marketing,True,3.0
+86,Bob,63.0,,Chicago,119563.0,2018-10-26,Finance,True,4.0
+87,Frank,40.0,Male,Chicago,46725.0,2015-07-05,Support,True,4.0
+88,,42.0,,Phoenix,49250.0,2018-06-23,Marketing,True,1.0
+89,Frank,41.0,Male,nan,136019.0,2016-09-28,,False,3.0
+90,,61.0,Other,Phoenix,126999.0,2018-07-15,Support,False,2.0
+91,Bob,57.0,Male,New York,136667.0,2016-06-13,Engineering,,3.0
+92,Frank,45.0,Other,New York,49250.0,2020-08-30,,True,1.0
+93,Grace,31.0,Male,Phoenix,59373.0,2022-12-24,Finance,,
+94,,61.0,Other,nan,41664.0,2017-03-04,Marketing,False,4.0
+95,Grace,,Male,Phoenix,31622.0,2020-11-17,Engineering,True,4.0
+96,David,41.0,Female,nan,31622.0,2022-08-31,Engineering,True,1.0
+97,Charlie,23.0,Male,nan,81226.0,2016-04-22,Support,False,2.0
+98,Frank,25.0,Male,Houston,131332.0,2019-06-11,Engineering,False,4.0
+99,Eve,40.0,Female,nan,58145.0,2017-07-28,Finance,False,5.0
+100,Alice,Unknown,,Chicago,136667.0,2016-06-09,Finance,False,4.0
+101,Eve,60.0,,nan,68709.0,2021-07-09,HR,False,5.0
+102,Bob,24.0,Male,nan,108617.0,2015-01-02,Finance,True,1.0
+103,Alice,40.0,Female,nan,89052.0,2016-01-10,,False,1.0
+104,Eve,27.0,Male,New York,124613.0,2021-05-29,Engineering,True,4.0
+105,,33.0,Other,Chicago,43350.0,2022-11-24,Finance,True,3.0
+106,Grace,24.0,Other,Chicago,124613.0,2016-07-06,Support,False,5.0
+107,Eve,51.0,Male,Phoenix,58769.0,2021-06-23,HR,False,2.0
+108,Eve,51.0,,Houston,46725.0,2019-03-06,Engineering,True,4.0
+109,Eve,Unknown,,nan,146021.0,2020-01-26,HR,False,2.0
+110,Alice,21.0,Male,Los Angeles,52180.0,2016-01-16,Engineering,False,4.0
+111,Grace,58.0,Male,Houston,41664.0,2019-07-05,Support,False,3.0
+112,Frank,55.0,Other,Houston,76828.0,2015-01-14,HR,,3.0
+113,Alice,57.0,,Chicago,65111.0,2016-05-18,Marketing,True,3.0
+114,Eve,44.0,Male,Houston,68243.0,2021-03-28,,,
+115,,23.0,Other,nan,89129.0,2020-07-01,,False,3.0
+116,Alice,25.0,,nan,54354.0,2015-05-10,Engineering,,1.0
+117,Charlie,24.0,Female,New York,83002.0,2017-04-17,Marketing,False,1.0
+118,Frank,28.0,Other,nan,91268.0,2020-08-02,HR,,
+119,,50.0,,nan,117410.0,2015-01-28,Marketing,False,5.0
+120,Bob,49.0,,Chicago,78756.0,2020-10-14,Marketing,,2.0
+121,Charlie,64.0,Other,nan,41664.0,2018-06-06,HR,,4.0
+122,Alice,39.0,Female,New York,143811.0,2015-09-18,Support,,4.0
+123,Alice,40.0,Other,Los Angeles,81226.0,2020-08-08,Marketing,True,
+124,Grace,53.0,,Chicago,124613.0,2019-01-12,Marketing,,1.0
+125,Bob,51.0,Male,Los Angeles,116145.0,2018-12-18,Support,True,4.0
+126,,60.0,Male,Chicago,76828.0,2016-04-04,Marketing,False,1.0
+127,Charlie,56.0,Other,Phoenix,87492.0,2015-10-28,Marketing,,5.0
+128,Charlie,38.0,,Houston,89129.0,2021-05-23,Marketing,False,2.0
+129,Eve,43.0,Male,Phoenix,54762.0,2016-09-21,,False,5.0
+130,,51.0,,nan,62921.0,2015-09-27,Finance,,
+131,Frank,,Other,Los Angeles,42112.0,2022-03-24,Support,True,3.0
+132,David,51.0,Male,nan,70809.0,2020-06-16,Marketing,,3.0
+133,Frank,53.0,,Houston,83002.0,2019-06-17,,False,3.0
+134,Frank,63.0,Male,Chicago,30060.0,2019-12-07,Support,False,5.0
+135,Charlie,30.0,Other,Houston,143811.0,2022-12-01,Engineering,,4.0
+136,Frank,19.0,,New York,108411.0,2017-05-11,Engineering,True,2.0
+137,Bob,,Male,Houston,53150.0,2018-07-04,Marketing,True,3.0
+138,Charlie,21.0,Other,New York,116145.0,2020-12-20,,False,
+139,Grace,42.0,Male,Houston,34853.0,2019-12-05,,False,
+140,Alice,30.0,Male,New York,115469.0,2019-09-03,Support,True,3.0
+141,Bob,55.0,Female,Los Angeles,51172.0,2022-01-04,Support,,3.0
+142,Grace,43.0,Female,nan,97298.0,2021-06-18,,False,2.0
+143,Alice,25.0,Other,nan,68709.0,2016-07-29,Support,True,3.0
+144,Eve,31.0,Female,Phoenix,146021.0,2020-06-26,,False,2.0
+145,David,31.0,Other,nan,119399.0,2018-07-31,Finance,,
+146,Eve,42.0,Female,Chicago,108617.0,2020-05-10,,True,3.0
+147,Grace,58.0,Male,Houston,30060.0,2022-06-27,Engineering,False,5.0
+148,Eve,29.0,Other,Phoenix,127432.0,2020-07-13,Support,,5.0
+149,Frank,48.0,Other,Chicago,124613.0,2021-01-21,,False,
+150,Grace,55.0,Male,Chicago,96017.0,2021-06-10,,,2.0
+151,David,48.0,Other,New York,116123.0,2019-07-14,Support,,5.0
+152,Alice,20.0,Other,nan,76828.0,2019-04-29,Finance,True,2.0
+153,Eve,46.0,Female,Los Angeles,61987.0,2020-01-22,Finance,,5.0
+154,David,53.0,Other,Los Angeles,121248.0,2021-01-12,Support,False,5.0
+155,Alice,39.0,,Phoenix,122201.0,2018-10-22,HR,,2.0
+156,,55.0,Male,Los Angeles,53150.0,2019-10-09,Support,,4.0
+157,Eve,61.0,Female,Houston,45850.0,2020-04-09,Support,True,5.0
+158,,31.0,Female,Los Angeles,111182.0,2016-09-11,Finance,,3.0
+159,Grace,59.0,,Phoenix,43350.0,2018-06-28,Finance,,
+160,Bob,45.0,Male,Los Angeles,119399.0,2017-08-14,Support,False,4.0
+161,Grace,52.0,Male,Houston,41046.0,2020-04-23,Support,True,2.0
+162,Grace,29.0,Female,New York,N/A,2021-07-09,Support,True,4.0
+163,Grace,48.0,Other,Phoenix,116123.0,2017-08-26,Finance,True,1.0
+164,Alice,23.0,Female,New York,58769.0,2022-01-02,Support,,1.0
+165,Alice,38.0,Male,New York,113559.0,2018-08-09,Support,True,5.0
+166,Grace,Unknown,,New York,91120.0,2017-11-09,Marketing,,5.0
+167,Eve,18.0,Female,Chicago,91268.0,2015-10-09,HR,,3.0
+168,,58.0,Male,nan,87384.0,2022-10-15,Engineering,False,
+169,Charlie,61.0,Female,Chicago,68243.0,2020-12-06,HR,False,4.0
+170,Frank,22.0,Other,nan,68243.0,2017-11-24,Marketing,False,1.0
+171,David,44.0,Female,New York,41046.0,2015-07-17,Engineering,False,5.0
+172,Frank,44.0,Female,Phoenix,83276.0,2021-12-07,Support,False,
+173,Alice,Unknown,Male,nan,64008.0,2017-12-18,Marketing,,4.0
+174,Frank,60.0,Male,Houston,83002.0,2022-11-24,Support,,5.0
+175,Grace,36.0,Male,Houston,69952.0,2018-03-30,Finance,True,5.0
+176,Eve,46.0,Female,Los Angeles,136667.0,2017-10-05,,,1.0
+177,Alice,27.0,Other,nan,111182.0,2022-07-01,Marketing,,1.0
+178,Grace,44.0,,Phoenix,34853.0,2018-05-14,Finance,False,5.0
+179,Grace,41.0,,Chicago,147369.0,2017-11-01,Marketing,,2.0
+180,Frank,55.0,Male,New York,119599.0,2016-05-04,Marketing,False,5.0
+181,Grace,49.0,Male,Los Angeles,130424.0,2015-10-03,Finance,True,
+182,Bob,,Female,Houston,124613.0,2022-07-03,Engineering,True,5.0
+183,,43.0,,Chicago,91396.0,2021-04-08,HR,,3.0
+184,Frank,29.0,Male,Chicago,30060.0,2018-05-24,Support,True,3.0
+185,Grace,57.0,Other,New York,91268.0,2018-06-28,Marketing,,3.0
+186,Charlie,19.0,Other,nan,131332.0,2015-05-06,Support,True,2.0
+187,,55.0,Male,Houston,136667.0,2015-08-05,,False,2.0
+188,Grace,22.0,Male,Phoenix,31622.0,2018-04-23,Finance,False,5.0
+189,David,24.0,,Chicago,104666.0,2018-05-31,Support,False,3.0
+190,Alice,43.0,,New York,42112.0,2021-12-17,Finance,False,2.0
+191,Alice,25.0,Female,Phoenix,143811.0,2021-10-10,Support,,1.0
+192,,53.0,,nan,78756.0,2017-07-07,HR,True,5.0
+193,Bob,49.0,Other,Houston,115469.0,2018-08-10,HR,,
+194,Charlie,58.0,Other,nan,116123.0,2021-01-07,HR,False,4.0
+195,Frank,60.0,Male,Chicago,127432.0,2021-08-28,HR,,5.0
+196,Grace,40.0,,Phoenix,146021.0,2019-07-20,HR,True,4.0
+197,David,31.0,Female,Phoenix,104478.0,2015-11-04,HR,,3.0
+198,Frank,48.0,Other,Phoenix,140616.0,2018-09-21,Finance,True,4.0
+199,Bob,48.0,Other,Chicago,89052.0,2020-05-23,Marketing,,3.0
+200,Bob,40.0,Female,Chicago,69952.0,2022-08-25,Support,True,1.0
+201,Alice,57.0,Female,nan,104478.0,2017-06-10,HR,True,4.0
+202,Bob,28.0,Other,Los Angeles,76828.0,2016-01-10,Finance,False,5.0
+203,David,55.0,Other,nan,116123.0,2020-07-26,Finance,True,3.0
+204,David,18.0,Female,Houston,68890.0,2018-09-26,Finance,False,5.0
+205,Grace,19.0,Other,New York,49250.0,2015-05-09,Marketing,False,2.0
+206,Charlie,53.0,Male,Phoenix,69952.0,2017-10-11,Support,False,3.0
+207,Alice,33.0,Male,Los Angeles,62921.0,2019-12-05,Marketing,,4.0
+208,Grace,18.0,Female,New York,146074.0,2022-06-09,Engineering,,3.0
+209,Grace,18.0,,Los Angeles,76828.0,2018-10-13,Finance,,5.0
+210,Bob,44.0,Female,nan,68243.0,2016-05-31,Engineering,,1.0
+211,Grace,39.0,Female,Chicago,127432.0,2019-02-27,,True,3.0
+212,Grace,53.0,,Phoenix,53150.0,2015-03-27,HR,True,4.0
+213,Frank,48.0,,nan,116123.0,2018-04-13,HR,,2.0
+214,,49.0,,New York,30060.0,2021-06-16,Marketing,True,
+215,Charlie,,Male,New York,62921.0,2018-02-16,Support,True,1.0
+216,Alice,35.0,Other,New York,N/A,2021-10-10,Engineering,False,2.0
+217,Bob,18.0,Male,New York,45850.0,2020-06-16,Support,False,3.0
+218,,60.0,Other,New York,68243.0,2020-12-01,Marketing,False,5.0
+219,David,42.0,Male,Los Angeles,87492.0,2015-10-30,HR,False,5.0
+220,Eve,48.0,Other,nan,113559.0,2022-08-23,Support,True,4.0
+221,,22.0,Male,Phoenix,81226.0,2016-08-10,Support,,5.0
+222,Bob,48.0,,Chicago,97298.0,2017-09-13,HR,True,1.0
+223,David,20.0,Female,Chicago,116145.0,2020-02-07,Engineering,True,5.0
+224,Frank,27.0,Male,nan,98247.0,2015-12-11,HR,True,4.0
+225,Grace,33.0,Other,nan,87492.0,2017-03-24,Support,False,
+226,Grace,54.0,,Chicago,96017.0,2020-06-10,Engineering,False,3.0
+227,Charlie,40.0,Male,Chicago,123065.0,2022-10-19,Engineering,False,3.0
+228,Alice,21.0,Male,Los Angeles,144130.0,2018-08-03,HR,,5.0
+229,Eve,50.0,,Houston,96017.0,2020-06-22,Support,True,2.0
+230,,22.0,Male,Phoenix,31524.0,2019-08-05,Marketing,,3.0
+231,,38.0,Female,New York,146074.0,2018-08-20,Support,False,
+232,Alice,27.0,Male,Houston,117410.0,2017-12-28,Finance,,5.0
+233,Alice,64.0,Female,nan,58145.0,2021-08-05,,True,4.0
+234,Eve,32.0,Female,Chicago,124613.0,2017-10-06,Marketing,True,
+235,Eve,49.0,,Houston,43350.0,2016-12-04,Engineering,False,5.0
+236,David,25.0,Male,Phoenix,83302.0,2016-07-28,Marketing,False,
+237,,22.0,,nan,N/A,2019-05-28,Engineering,,3.0
+238,Alice,32.0,Male,New York,146021.0,2018-01-17,Engineering,False,4.0
+239,Eve,45.0,Male,New York,146074.0,2016-11-18,Marketing,False,5.0
+240,,19.0,Other,Phoenix,116123.0,2022-09-29,Engineering,True,1.0
+241,Bob,36.0,Male,Phoenix,146074.0,2022-03-17,Engineering,False,4.0
+242,Alice,52.0,,Chicago,85337.0,2022-03-21,Finance,False,1.0
+243,,35.0,Female,New York,96017.0,2016-05-03,Support,True,
+244,Alice,42.0,Male,nan,119563.0,2018-09-09,Support,True,2.0
+245,Frank,19.0,Other,Houston,87384.0,2016-05-08,,,4.0
+246,Bob,35.0,,nan,30060.0,2019-07-26,,False,
+247,Eve,36.0,Male,Los Angeles,136296.0,2019-06-26,Finance,True,1.0
+248,David,48.0,,Los Angeles,135921.0,2015-01-19,,,3.0
+249,Charlie,23.0,Other,Phoenix,146074.0,2021-09-10,Marketing,,3.0
+250,Grace,57.0,Other,Chicago,140616.0,2017-09-27,HR,False,2.0
+251,Alice,49.0,,Los Angeles,64020.0,2017-04-30,HR,False,4.0
+252,Grace,56.0,Male,New York,53150.0,2018-10-20,HR,,4.0
+253,Grace,55.0,Female,nan,53150.0,2018-09-16,Finance,True,4.0
+254,,34.0,Other,nan,87492.0,2018-09-29,Finance,,
+255,Bob,56.0,Male,Phoenix,91120.0,2017-04-01,Engineering,False,2.0
+256,Frank,,Male,Houston,31622.0,2016-03-30,HR,True,4.0
+257,Charlie,27.0,Female,Phoenix,117410.0,2019-06-13,Marketing,True,
+258,Alice,44.0,Other,Houston,104666.0,2022-08-04,,,3.0
+259,Frank,41.0,Other,Phoenix,54762.0,2016-12-11,Marketing,False,1.0
+260,Charlie,39.0,Male,Phoenix,49250.0,2020-12-30,,,
+261,Frank,47.0,Male,Phoenix,105186.0,2017-07-05,HR,,3.0
+262,Alice,46.0,Female,Houston,119399.0,2022-11-15,HR,,3.0
+263,Grace,58.0,Female,Houston,N/A,2022-04-06,HR,True,1.0
+264,Charlie,51.0,Other,Phoenix,N/A,2019-02-05,Finance,True,3.0
+265,David,23.0,,Los Angeles,98247.0,2018-12-11,,False,2.0
+266,Charlie,32.0,Other,Chicago,61653.0,2015-11-01,Finance,False,1.0
+267,Eve,42.0,Male,Chicago,68243.0,2017-01-05,Finance,,3.0
+268,Alice,64.0,Other,Chicago,117410.0,2021-05-27,Support,,5.0
+269,Eve,18.0,,Houston,83302.0,2020-05-17,Marketing,,
+270,Eve,,Female,Houston,65737.0,2020-11-19,Marketing,False,3.0
+271,Frank,64.0,,Los Angeles,34263.0,2020-07-02,Engineering,True,2.0
+272,Alice,28.0,,Chicago,49250.0,2022-12-24,Finance,True,4.0
+273,David,21.0,,Chicago,52180.0,2022-11-29,,,3.0
+274,,53.0,Female,Phoenix,N/A,2017-08-19,Support,,4.0
+275,Eve,48.0,,Houston,54762.0,2017-10-23,Support,,5.0
+276,Eve,25.0,,Chicago,41664.0,2020-11-02,Marketing,,3.0
+277,Bob,57.0,,nan,68709.0,2021-07-03,Finance,False,1.0
+278,Charlie,51.0,Male,Los Angeles,65737.0,2022-11-03,Engineering,True,4.0
+279,Frank,35.0,,nan,130424.0,2019-01-13,Finance,,5.0
+280,Grace,64.0,Female,nan,105186.0,2021-11-06,HR,False,1.0
+281,David,32.0,,Los Angeles,127425.0,2020-05-01,Finance,,1.0
+282,Bob,19.0,,nan,77304.0,2022-04-30,HR,,1.0
+283,Alice,36.0,Female,Chicago,96017.0,2018-03-23,HR,True,1.0
+284,Grace,40.0,,Houston,43350.0,2016-10-26,Engineering,,3.0
+285,Bob,49.0,Female,Los Angeles,108411.0,2015-01-12,,True,
+286,,40.0,,Phoenix,68709.0,2018-03-02,Marketing,True,3.0
+287,Eve,27.0,Female,nan,136019.0,2015-10-31,Finance,True,3.0
+288,Bob,24.0,,Los Angeles,58145.0,2019-10-30,HR,False,5.0
+289,David,52.0,,New York,31622.0,2022-10-01,Finance,False,5.0
+290,Eve,54.0,Male,New York,108617.0,2015-02-12,,True,
+291,Frank,56.0,Male,Houston,104182.0,2017-08-01,Marketing,,5.0
+292,Alice,36.0,,Chicago,N/A,2021-07-18,,True,2.0
+293,Grace,51.0,,Houston,75186.0,2018-09-11,Marketing,,
+294,Bob,64.0,Other,Houston,116123.0,2021-12-20,Support,True,5.0
+295,Grace,41.0,Female,Houston,98247.0,2021-08-08,Marketing,,
+296,David,51.0,Other,Houston,51792.0,2017-06-09,Engineering,False,3.0
+297,Grace,41.0,Male,Phoenix,30060.0,2021-10-10,,,3.0
+298,Charlie,45.0,Male,Phoenix,147369.0,2017-10-01,HR,True,
+299,Bob,34.0,Male,Los Angeles,97298.0,2015-01-21,Support,False,2.0
+300,Eve,62.0,Male,New York,45048.0,2016-02-11,Engineering,,2.0
+301,Frank,34.0,,Houston,41664.0,2022-04-20,Finance,,
+302,David,18.0,Male,Los Angeles,61987.0,2017-10-11,,,5.0
+303,Eve,51.0,,New York,54058.0,2015-12-02,HR,,4.0
+304,Grace,32.0,,nan,58145.0,2020-01-13,Marketing,,2.0
+305,,57.0,Male,Chicago,116123.0,2018-02-21,HR,False,1.0
+306,David,52.0,Male,Phoenix,119399.0,2021-09-12,Finance,False,3.0
+307,David,49.0,Female,nan,123065.0,2022-10-11,Support,False,
+308,Frank,20.0,Other,New York,98247.0,2020-01-02,Support,False,1.0
+309,Grace,49.0,Male,nan,62921.0,2016-12-15,,True,
+310,,Unknown,Female,Chicago,54354.0,2015-02-20,Support,False,3.0
+311,Charlie,37.0,Female,New York,116145.0,2015-11-20,,,3.0
+312,Alice,64.0,Other,nan,43350.0,2017-02-27,,,2.0
+313,Grace,36.0,,Phoenix,59402.0,2015-05-21,,False,2.0
+314,Frank,24.0,Male,Phoenix,143811.0,2016-04-14,Marketing,,1.0
+315,Bob,23.0,Other,Los Angeles,111182.0,2017-02-25,Engineering,False,
+316,David,19.0,Male,nan,58145.0,2019-12-31,,,3.0
+317,Alice,33.0,Female,Houston,105186.0,2018-09-19,,True,1.0
+318,Grace,49.0,Female,nan,143811.0,2020-03-31,Engineering,True,4.0
+319,Alice,64.0,,New York,85337.0,2017-08-21,HR,False,1.0
+320,Bob,28.0,Female,New York,51792.0,2016-01-08,,False,5.0
+321,Alice,38.0,Female,nan,91396.0,2021-12-16,Marketing,False,1.0
+322,Grace,38.0,Other,Chicago,108411.0,2019-08-20,Support,,5.0
+323,Alice,62.0,Male,Phoenix,59402.0,2022-08-30,Support,False,5.0
+324,Frank,46.0,Male,New York,91396.0,2018-03-25,Finance,True,5.0
+325,Bob,54.0,Other,Phoenix,52180.0,2021-05-27,Finance,,4.0
+326,,54.0,,New York,89129.0,2019-07-30,Support,False,1.0
+327,David,61.0,Male,Los Angeles,59402.0,2015-04-16,Support,,1.0
+328,David,24.0,Female,Houston,113559.0,2018-12-14,Marketing,,4.0
+329,Grace,43.0,Male,New York,130424.0,2022-06-10,Engineering,False,3.0
+330,Eve,43.0,Female,Phoenix,119599.0,2019-08-09,Finance,,2.0
+331,David,50.0,,Los Angeles,78756.0,2015-01-02,Engineering,True,1.0
+332,Bob,37.0,Other,New York,51792.0,2022-03-21,Marketing,True,2.0
+333,Charlie,46.0,Male,Chicago,83276.0,2022-05-15,Support,,
+334,Charlie,49.0,Other,Houston,89052.0,2020-11-07,,False,
+335,Grace,44.0,Male,New York,68890.0,2015-12-16,Engineering,,4.0
+336,Bob,63.0,Female,Los Angeles,66397.0,2018-07-10,Support,True,
+337,David,49.0,Other,Chicago,136667.0,2017-11-28,Support,,
+338,,21.0,Male,nan,121248.0,2021-01-15,HR,,3.0
+339,Eve,64.0,Female,Los Angeles,68890.0,2021-06-17,Engineering,True,3.0
+340,Grace,35.0,Other,Los Angeles,61653.0,2016-03-20,,,3.0
+341,Alice,20.0,Other,Chicago,89052.0,2021-06-03,Engineering,,
+342,Eve,51.0,Male,Los Angeles,127432.0,2017-08-09,Support,False,4.0
+343,Eve,Unknown,Male,Chicago,119563.0,2015-02-05,,False,5.0
+344,Eve,60.0,Male,New York,87384.0,2018-01-12,Marketing,True,5.0
+345,Eve,44.0,Female,Chicago,62921.0,2019-01-15,HR,True,2.0
+346,David,46.0,Male,Chicago,131332.0,2019-12-04,Support,True,5.0
+347,Eve,45.0,Other,Houston,102355.0,2020-01-20,Finance,False,5.0
+348,Bob,62.0,Other,Chicago,75420.0,2018-11-09,Finance,True,3.0
+349,Frank,22.0,Male,Chicago,83302.0,2018-04-10,HR,True,3.0
+350,Bob,51.0,Male,nan,64008.0,2018-10-31,Marketing,True,
+351,Bob,57.0,,New York,77924.0,2019-09-05,Support,False,2.0
+352,Eve,53.0,Other,Houston,116123.0,2018-10-17,Engineering,,1.0
+353,Frank,40.0,Female,nan,108617.0,2022-02-19,HR,True,2.0
+354,David,45.0,,Phoenix,116123.0,2020-12-28,Marketing,,2.0
+355,Frank,62.0,Male,New York,89052.0,2018-07-24,Engineering,True,4.0
+356,Charlie,47.0,Male,New York,122201.0,2022-08-05,Finance,,
+357,Charlie,51.0,Other,Phoenix,31524.0,2018-05-28,Finance,False,4.0
+358,,49.0,Male,Chicago,136667.0,2016-06-04,Engineering,False,2.0
+359,Eve,37.0,Female,nan,31622.0,2019-12-12,HR,True,2.0
+360,Bob,48.0,Other,Los Angeles,68709.0,2015-01-10,Finance,,2.0
+361,Grace,39.0,Male,Houston,70809.0,2017-09-10,Support,False,5.0
+362,Grace,49.0,Other,Los Angeles,89052.0,2021-08-22,,True,4.0
+363,Eve,19.0,Male,Phoenix,89052.0,2019-07-15,Engineering,True,2.0
+364,Frank,34.0,Male,New York,75420.0,2019-07-19,Engineering,False,3.0
+365,,41.0,Male,New York,131332.0,2022-06-22,Finance,False,
+366,Bob,58.0,Female,Houston,127425.0,2022-03-16,HR,True,
+367,Eve,47.0,Female,New York,83276.0,2021-01-08,Support,,3.0
+368,Eve,19.0,Other,New York,77304.0,2016-12-20,HR,,
+369,David,56.0,Male,Houston,65111.0,2017-12-08,Marketing,,5.0
+370,Frank,62.0,Male,nan,59402.0,2017-05-08,Marketing,True,5.0
+371,Frank,40.0,Female,nan,75420.0,2018-08-09,,False,1.0
+372,Bob,48.0,Male,Houston,104182.0,2019-05-23,Finance,True,1.0
+373,Charlie,63.0,Female,Phoenix,104478.0,2015-02-19,Finance,False,1.0
+374,Grace,38.0,Male,New York,31524.0,2022-06-04,Finance,,
+375,Bob,39.0,Other,New York,146021.0,2022-01-22,,,5.0
+376,Frank,18.0,Male,Phoenix,140616.0,2022-12-14,Marketing,False,5.0
+377,David,43.0,Male,nan,43350.0,2015-05-26,HR,False,5.0
+378,Bob,58.0,,Chicago,112565.0,2017-07-03,,True,3.0
+379,,18.0,Female,Chicago,83276.0,2019-01-02,,,5.0
+380,Grace,42.0,Male,Chicago,135921.0,2021-04-08,HR,True,3.0
+381,Frank,33.0,Male,nan,115469.0,2016-08-03,Finance,True,1.0
+382,Bob,56.0,,nan,53150.0,2022-06-27,Support,True,1.0
+383,David,49.0,,Phoenix,65111.0,2019-05-04,HR,,
+384,Eve,25.0,Female,New York,87384.0,2016-04-27,Marketing,True,1.0
+385,Frank,59.0,,Phoenix,136296.0,2018-06-03,Engineering,True,
+386,,64.0,Other,Phoenix,58769.0,2016-11-03,Engineering,True,2.0
+387,Alice,55.0,,nan,144130.0,2016-09-22,,True,2.0
+388,Charlie,45.0,Other,Chicago,91268.0,2022-06-01,Engineering,True,4.0
+389,Grace,58.0,Female,Los Angeles,,2016-10-23,Support,True,
+390,,42.0,Female,New York,83302.0,2022-10-23,Finance,,4.0
+391,Charlie,51.0,Female,nan,131371.0,2021-10-02,Marketing,True,4.0
+392,,41.0,Female,Chicago,70809.0,2017-09-14,Support,False,2.0
+393,David,40.0,Female,Los Angeles,N/A,2019-03-27,Marketing,True,
+394,David,29.0,Other,Los Angeles,34853.0,2016-10-11,Marketing,True,2.0
+395,,23.0,Other,nan,147369.0,2017-08-26,Finance,,4.0
+396,Grace,52.0,Female,Houston,51792.0,2022-03-22,,,
+397,Charlie,61.0,,New York,76828.0,2018-01-05,Engineering,False,4.0
+398,Frank,36.0,Male,Los Angeles,126523.0,2021-12-31,Finance,False,5.0
+399,Grace,,Female,nan,108411.0,2016-03-16,Support,,
+400,Frank,24.0,,nan,81226.0,2017-07-09,,,
+401,Bob,62.0,Male,Chicago,70809.0,2017-02-08,Support,True,4.0
+402,Grace,32.0,Female,Houston,135921.0,2018-09-05,,,5.0
+403,Alice,30.0,Female,New York,104182.0,2020-01-01,Support,False,3.0
+404,Bob,28.0,Other,Phoenix,45850.0,2015-09-20,Finance,True,2.0
+405,Bob,39.0,Male,Chicago,98247.0,2019-04-27,,False,4.0
+406,,31.0,Male,Los Angeles,108617.0,2022-05-08,,True,
+407,Frank,44.0,,Los Angeles,104666.0,2021-11-11,Marketing,,2.0
+408,David,50.0,Other,Chicago,91396.0,2017-09-25,Marketing,False,2.0
+409,Charlie,18.0,Other,nan,43350.0,2016-11-30,HR,True,2.0
+410,Eve,48.0,Other,Los Angeles,54762.0,2021-06-07,Support,True,3.0
+411,David,39.0,Other,Houston,56657.0,2019-05-23,Marketing,,1.0
+412,Grace,38.0,Male,New York,62921.0,2018-05-26,HR,,4.0
+413,Grace,41.0,Male,Houston,104182.0,2018-01-30,Marketing,,1.0
+414,David,38.0,Female,Los Angeles,108617.0,2022-02-14,Support,False,1.0
+415,Eve,38.0,Female,Phoenix,119599.0,2021-05-24,,True,1.0
+416,Alice,58.0,Other,New York,61987.0,2018-04-05,Engineering,,2.0
+417,Bob,22.0,Other,New York,91268.0,2022-04-22,Support,False,5.0
+418,Frank,31.0,Other,Chicago,43350.0,2017-10-02,Finance,False,2.0
+419,David,59.0,Female,Chicago,51792.0,2015-02-05,Marketing,False,2.0
+420,,53.0,,Phoenix,41555.0,2017-01-13,Marketing,,
+421,Bob,49.0,,nan,54762.0,2019-10-31,,,
+422,Alice,24.0,Female,New York,126523.0,2015-12-19,Finance,True,1.0
+423,Eve,60.0,Female,Phoenix,98247.0,2020-04-06,,True,2.0
+424,David,60.0,Female,Chicago,91268.0,2015-03-14,Finance,,1.0
+425,,21.0,Female,Chicago,111182.0,2022-05-19,Engineering,False,
+426,,55.0,Female,New York,108617.0,2018-10-08,Marketing,False,5.0
+427,,20.0,Female,Houston,70809.0,2020-03-29,Marketing,False,4.0
+428,Grace,22.0,Other,Los Angeles,76828.0,2017-12-29,Engineering,True,1.0
+429,Bob,61.0,Other,Chicago,54354.0,2021-10-08,HR,False,5.0
+430,Bob,48.0,Other,nan,77304.0,2016-12-08,,True,4.0
+431,David,46.0,Other,nan,61987.0,2019-12-10,Engineering,True,3.0
+432,,63.0,Female,Chicago,91396.0,2022-02-21,,False,1.0
+433,Charlie,51.0,,Houston,65111.0,2022-11-15,Support,False,1.0
+434,Eve,56.0,Male,Houston,105186.0,2017-08-13,Marketing,,3.0
+435,Bob,32.0,Female,Phoenix,69952.0,2022-01-08,,,3.0
+436,Alice,29.0,Male,nan,131371.0,2021-10-11,Finance,False,1.0
+437,Alice,58.0,,Phoenix,87492.0,2015-06-09,,True,3.0
+438,Alice,46.0,Other,nan,98247.0,2021-01-05,Support,True,2.0
+439,,35.0,,Los Angeles,119399.0,2022-09-24,Marketing,True,4.0
+440,Frank,Unknown,Female,Los Angeles,84912.0,2019-10-02,Engineering,True,4.0
+441,,35.0,Other,New York,127425.0,2019-05-05,Support,True,4.0
+442,Eve,44.0,Female,Phoenix,30060.0,2015-03-08,Marketing,,2.0
+443,,42.0,Other,Chicago,45850.0,2021-08-25,,False,3.0
+444,Bob,53.0,Male,Phoenix,127432.0,2015-02-27,HR,,5.0
+445,Bob,42.0,Male,Chicago,51792.0,2015-12-08,HR,True,3.0
+446,Charlie,39.0,Male,Houston,96017.0,2018-02-27,Finance,True,1.0
+447,Alice,25.0,,Phoenix,31524.0,2022-08-06,Marketing,True,
+448,,28.0,Female,Houston,45850.0,2018-04-10,HR,True,4.0
+449,Frank,,,Los Angeles,112565.0,2022-09-18,Engineering,False,3.0
+450,Frank,,Male,Los Angeles,81226.0,2022-04-15,Marketing,True,5.0
+451,Eve,63.0,Female,New York,54354.0,2018-05-17,Engineering,False,1.0
+452,Frank,50.0,Male,Phoenix,51792.0,2021-07-29,Engineering,True,2.0
+453,Eve,48.0,,Houston,130424.0,2019-02-03,HR,False,2.0
+454,Grace,64.0,,Chicago,75186.0,2019-12-27,Marketing,,5.0
+455,Charlie,41.0,,Los Angeles,131371.0,2015-04-26,,True,1.0
+456,Bob,56.0,Male,Los Angeles,131332.0,2016-10-23,Support,False,4.0
+457,Eve,61.0,Female,Chicago,127432.0,2019-01-05,HR,,3.0
+458,Charlie,,Female,Houston,117410.0,2021-11-05,HR,True,1.0
+459,,Unknown,Male,Houston,104666.0,2020-02-12,,True,2.0
+460,Charlie,55.0,Female,Phoenix,119563.0,2021-05-23,Marketing,True,5.0
+461,Bob,21.0,Male,Phoenix,91120.0,2017-10-13,Marketing,False,5.0
+462,Eve,38.0,Female,nan,56657.0,2015-11-07,Engineering,False,3.0
+463,Charlie,45.0,Other,nan,127432.0,2015-07-27,,,5.0
+464,Frank,19.0,Other,New York,84912.0,2022-04-19,,False,5.0
+465,,28.0,,Los Angeles,102355.0,2021-10-29,Marketing,False,1.0
+466,Frank,42.0,Other,Phoenix,30060.0,2022-06-10,Engineering,True,4.0
+467,Frank,32.0,Other,Houston,91120.0,2016-09-24,HR,True,3.0
+468,Eve,53.0,Other,Chicago,91396.0,2020-10-03,Finance,True,1.0
+469,Frank,38.0,Male,Houston,68890.0,2016-10-18,Support,True,4.0
+470,Grace,Unknown,Other,Los Angeles,108617.0,2018-11-24,HR,True,1.0
+471,Eve,30.0,Other,nan,131332.0,2020-04-15,Marketing,True,
+472,Grace,44.0,,Houston,62921.0,2022-01-06,Support,True,1.0
+473,David,21.0,Other,New York,135921.0,2019-08-07,Finance,,5.0
+474,Frank,63.0,Other,Los Angeles,41046.0,2015-08-25,Finance,,4.0
+475,Grace,46.0,Female,nan,84912.0,2015-12-14,Engineering,,3.0
+476,Grace,62.0,,Chicago,140616.0,2022-04-28,Support,,3.0
+477,Grace,21.0,,nan,111182.0,2016-09-21,Engineering,True,4.0
+478,Grace,28.0,,New York,119563.0,2019-03-21,HR,,5.0
+479,David,32.0,,Los Angeles,54058.0,2020-06-26,,True,2.0
+480,Charlie,42.0,,Chicago,146074.0,2018-06-25,,,1.0
+481,Frank,Unknown,,New York,131332.0,2015-12-30,,False,5.0
+482,Grace,64.0,Male,nan,64020.0,2021-06-26,Support,,
+483,David,37.0,Other,New York,127425.0,2015-10-13,,,4.0
+484,David,55.0,,Los Angeles,64020.0,2015-05-29,HR,True,1.0
+485,Grace,52.0,Other,Phoenix,119563.0,2018-01-12,Engineering,,3.0
+486,,49.0,Other,New York,96017.0,2021-09-19,Support,False,2.0
+487,Charlie,46.0,Male,New York,41664.0,2016-03-31,Engineering,True,
+488,,53.0,,nan,119563.0,2019-11-02,Support,True,3.0
+489,David,39.0,Female,nan,96017.0,2017-03-10,Engineering,,4.0
+490,Frank,26.0,Male,Chicago,77924.0,2018-03-30,Finance,True,1.0
+491,Eve,21.0,Female,nan,59402.0,2017-10-09,Engineering,True,4.0
+492,Charlie,52.0,Other,Houston,136019.0,2022-10-02,,True,1.0
+493,David,50.0,Other,Los Angeles,131371.0,2021-11-12,Finance,True,5.0
+494,Eve,47.0,Male,Los Angeles,113559.0,2019-03-04,Engineering,True,2.0
+495,Eve,26.0,Male,Phoenix,108617.0,2022-08-17,Support,True,5.0
+496,Charlie,35.0,Female,Phoenix,70809.0,2021-12-31,Support,False,5.0
+497,Eve,48.0,,Los Angeles,116123.0,2016-04-25,Support,,4.0
+498,David,,Female,Phoenix,41555.0,2019-08-14,Marketing,False,2.0
+499,Bob,21.0,Male,Chicago,83002.0,2020-12-01,HR,True,1.0
+500,David,61.0,Female,nan,75420.0,2022-08-28,Support,True,1.0
